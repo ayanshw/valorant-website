@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOWNLOAD THE GAME</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="./javascripts/main.js"></script>
+    <script src="./js/lightbox-plus-jquery.js"></script>
+    <link rel="stylesheet" href="./CSS/lightbox.css">
+</head>
+
+<body>
+    <section class="maincls">
+        <section class="navbar">
+            <div class="logo">
+                <img src="./vallogo.svg" alt="" onclick="mainpg()">
+            </div>
+            <div class="navlink">
+                <ul>
+                    <li><a href="pbaction.html">PLAY</a></li>
+                    <li><a href="htp.html">HOW TO PLAY?</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="https://chocofy.pages.dev/">MUSIC</a></li>
+                    <li><a href="https://support-valorant.riotgames.com/">SUPPORT</a></li>
+                    <li><a href="https://playvalorant.com/en-us/news/">NEWS</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="main">
+            <div class="ytvid" onload="ytplay()">
+                <video src="./vid/valskin.mp4" autoplay muted preload="true"></video>
+            </div>
+            <div class="dlbutton" id="dlbtnid" onclick="downloadbtn()" onmouseenter="skewan()" onmouseleave="skewout()">
+                <button class="btndl">
+                    <a id="dlbtnlink" href="https://f004.backblazeb2.com/file/valobucket/valorantx64.exe" download>DOWNLOAD
+                        GAME</a>
+                </button>
+                <span class="disp" id="newspanid"></span>
+            </div>
+                  <h6 id="dlbtnh1" onclick="downloadbtn()" onmouseenter="skewan()" onmouseleave="skewout()">DOWNLOAD GAME</h6>
+        </section>
+        <section class="foot">
+            <div class="ftlinks">
+                <a href="carrers.html">Work with US</a>
+                <a id="contactus" href="https://support-valorant.riotgames.com/hc/en-us/requests/new">Contact US</a>
+            </div>
+            <div class="cpdata">
+                <p>&#169; Ayan Shaw and Susovan Mondal 2022<br />All Media and Resources are Either self designed or
+                    provided by RIOT Games.<br />
+                    VALORANT&#8482; is
+                    a trademark of RIOT Games&#174;. All Copyrights Reserved.</p>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
